@@ -1,0 +1,41 @@
+version: "3.1"
+# actions:
+#   - action_provide_skillset
+#   - action_provide_experience
+
+
+intents:
+  - greet
+  - ask_skills
+  - ask_education
+  - ask_projects
+  - ask_experience
+  - ask_patents
+  - goodbye
+  - affirm
+  - deny
+
+responses:
+  utter_greet:
+    - text: "Hello! This is a portfolio Chatbot project for seminar Chatbot Challenge at OVGU with RASA by Jigarkumar R. Panchal (Matrikelnummer 249111). How can I help you today regarding Jigarkumar's profile?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_ask_skills:
+    - text: "He is proficient in Python, C, C++, Embedded C, MATLAB, Verilog-HDL, VHDL, and JavaScript."
+
+  utter_ask_education:
+    - text: "He is doing a Master’s in Electrical Engineering and IT from Otto von Guericke University, Germany, with a Bachelor's degree in Electrical Engineering from Gujarat technological University, India."
+
+  utter_ask_projects:
+    - text: "He has worked on several projects, including an Automated Temperature Control Lab Setup using OPC UA and a Process Control CSTR system And also this RASA Portfolio project."
+
+  utter_ask_experience:
+    - text: "He worked as an Operations Intern at Xenhester Innovation Pvt. Ltd., India, where he designed automation solutions and debugged hardware systems. Additionally, he interned at Synergy Transformers Pvt. Ltd., where he analyzed transformer manufacturing processes."
+
+  utter_ask_patents:
+    - text: "He has two patents: 'Circuit Breaker System for Standby Power Consumption' and 'Transparent Smartphone with Opaque Mode.'"
+
+  utter_Ask_further:
+    - text: "Do you want to know anything else?"
