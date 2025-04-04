@@ -1,0 +1,63 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey bot
+
+- intent: ask_skills
+  examples: |
+    - What programming languages do you know?
+    - Tell me about your technical skills.
+    - Which coding languages are you proficient in?
+
+- intent: ask_education
+  examples: |
+    - Where did you study?
+    - Tell me about your education.
+    - What is your academic background?
+
+- intent: ask_projects
+  examples: |
+    - Can you describe your projects?
+    - What projects have you worked on?
+    - Tell me about your automation project.
+
+- intent: ask_experience
+  examples: |
+    - Do you have any work experience?
+    - Where have you worked before?
+    - Tell me about your past internships.
+
+- intent: ask_patents
+  examples: |
+    - Do you have any patents?
+    - Have you filed any patents?
+    - Tell me about your patents.
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ok
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really

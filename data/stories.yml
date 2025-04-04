@@ -1,0 +1,70 @@
+version: "3.1"
+
+stories:
+
+- story: Greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: answer skill question
+  steps:
+  - intent: ask_skills
+  - action: utter_ask_skills
+  - intent: affirm
+  - action: utter_Ask_further
+  - intent: deny
+  - action: utter_goodbye
+
+
+
+- story: answer education question
+  steps:
+  - intent: ask_education
+  - action: utter_ask_education
+  - intent: affirm
+  - action: utter_Ask_further
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: answer project question
+  steps:
+  - intent: ask_projects
+  - action: utter_ask_projects
+  - intent: affirm
+  - action: utter_Ask_further
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: answer experience question
+  steps:
+  - intent: ask_experience
+  - action: utter_ask_experience
+  - intent: affirm
+  - action: utter_Ask_further
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: answer patent question
+  steps:
+  - intent: ask_patents
+  - action: utter_ask_patents
+  - intent: affirm
+  - action: utter_Ask_further
+  - intent: deny
+  - action: utter_goodbye
+
+
+# stories:
+# - story: dynamic skillset response
+#   steps:
+#   - intent: ask_skills
+#   - action: action_provide_skillset
+
+# - story: dynamic experience response
+#   steps:
+#   - intent: ask_experience
+#   - action: action_provide_experience
