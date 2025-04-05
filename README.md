@@ -17,7 +17,5 @@ This Rasa-powered chatbot is designed to introduce myself, Jigarkumar Panchal, t
   - Reusable domain and story files
   - Defined fallback and action policies
 
----
 
-## 📁 Project Structure
 
